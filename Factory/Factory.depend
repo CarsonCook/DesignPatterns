@@ -2,10 +2,12 @@
 1494296210 source:c:\users\owner\desktop\github-code\designpatterns\factory\abstractfactory.cpp
 	<iostream>
 
-1494296210 source:c:\users\owner\desktop\github-code\designpatterns\factory\factorymethod.cpp
+1494805626 source:c:\users\owner\desktop\github-code\designpatterns\factory\factorymethod.cpp
+	<string>
 	<iostream>
+	"FactoryMethod.hh"
 
-1494297630 source:c:\users\owner\desktop\github-code\designpatterns\factory\main.cpp
+1494479547 source:c:\users\owner\desktop\github-code\designpatterns\factory\main.cpp
 	<iostream>
 	"SimpleFactory.hh"
 	"FactoryMethod.hh"
@@ -14,10 +16,13 @@
 1494297681 c:\users\owner\desktop\github-code\designpatterns\factory\simplefactory.hh
 	<string>
 
-1494296185 c:\users\owner\desktop\github-code\designpatterns\factory\factorymethod.hh
+1494805626 c:\users\owner\desktop\github-code\designpatterns\factory\factorymethod.hh
+	<string>
 
 1494296185 c:\users\owner\desktop\github-code\designpatterns\factory\abstractfactory.hh
 
-1494296210 source:c:\users\owner\desktop\github-code\designpatterns\factory\simplefactory.cpp
+1494297664 source:c:\users\owner\desktop\github-code\designpatterns\factory\simplefactory.cpp
+	<string>
 	<iostream>
+	"SimpleFactory.hh"
 
