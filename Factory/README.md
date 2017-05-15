@@ -11,3 +11,8 @@ This pattern is used when it takes some logic to create an object, in order to a
 
 The Factory Method delegates instantiation logic to child classes in an inheritance by using an abstraction. These methods create objects without specifying what
 exact class will be made. This is used when the client doesn't know what subclass they will be using, as it is dynamically decided at runtime.
+
+##Abstract Factory
+
+An abstract factory groups related factories, encapsulating them and removes need for concrete factory classes. This makes sense for when there are
+interrelated dependencies with complex creational logic.
