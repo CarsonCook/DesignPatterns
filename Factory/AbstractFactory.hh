@@ -6,53 +6,47 @@
 class DoorFittingExpert
 {
 public:
-    DoorFittingExpert(std::string type);
     virtual ~DoorFittingExpert(){};
-    virtual std::string getType();
-private:
-    std::string mType;
+    virtual std::string getType()=0;
 };
 
 class Welder:public DoorFittingExpert
 {
 public:
-    Welder():DoorFittingExpert("welder"){};
+    std::string getType();
 };
 
 class Carpenter:public DoorFittingExpert
 {
 public:
-    Carpenter():DoorFittingExpert("carpenter"){};
+    std::string getType();
 };
 
 class AbstractDoor
 {
 public:
-    AbstractDoor(std::string type);
     virtual ~AbstractDoor(){};
-    virtual std::string getType();
-private:
-    std::string mType;
+    virtual std::string getType()=0;
 };
 
 class WoodenDoor:public AbstractDoor
 {
 public:
-    WoodenDoor():AbstractDoor("wooden"){};
+    std::string getType();
 };
 
 class IronDoor:public AbstractDoor
 {
 public:
-    IronDoor():AbstractDoor("iron"){};
+    std::string getType();
 };
 
 class AbstractDoorFactory
 {
 public:
     virtual ~AbstractDoorFactory(){};
-    virtual AbstractDoor* makeDoor();
-    virtual DoorFittingExpert* makeFittingExpert();
+    virtual AbstractDoor* makeDoor()=0;
+    virtual DoorFittingExpert* makeFittingExpert()=0;
 };
 
 class IronDoorFactory:public AbstractDoorFactory

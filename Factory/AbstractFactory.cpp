@@ -1,39 +1,34 @@
 #include <string>
 #include "AbstractFactory.hh"
 
-DoorFittingExpert::DoorFittingExpert(std::string type)
+std::string Welder::getType()
 {
-    mType=type;
+    return "welder";
 }
 
-std::string DoorFittingExpert::getType()
+std::string IronDoor::getType()
 {
-    return mType;
+    return "iron door";
 }
 
-AbstractDoor::AbstractDoor(std::string type)
+std::string Carpenter::getType()
 {
-    mType=type;
+    return "carpenter";
 }
 
-std::string AbstractDoor::getType()
+std::string WoodenDoor::getType()
 {
-    return mType;
-}
-
-AbstractDoor* AbstractDoorFactory::makeDoor()
-{
-    return new AbstractDoor("nothing");
-}
-
-DoorFittingExpert* AbstractDoorFactory::makeFittingExpert()
-{
-    return new DoorFittingExpert("nothing");
+    return "wooden door";
 }
 
 DoorFittingExpert* IronDoorFactory::makeFittingExpert()
 {
     return new Welder();
+}
+
+AbstractDoor* IronDoorFactory::makeDoor()
+{
+    return new IronDoor();
 }
 
 AbstractDoor* WoodenDoorFactory::makeDoor()
