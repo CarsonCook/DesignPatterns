@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1494905895 source:c:\users\owner\desktop\github-code\designpatterns\builder\main.cpp
+	<iostream>
+	"builder.hh"
+
+1494905882 source:c:\users\owner\desktop\github-code\designpatterns\builder\builder.cpp
+	<string>
+	<iostream>
+	"builder.hh"
+
+1494906704 c:\users\owner\desktop\github-code\designpatterns\builder\builder.hh
+	"door.hh"
+	<string>
+
+1494907645 source:c:\users\owner\desktop\github-code\designpatterns\builder\builderanddoor.cpp
+	<string>
+	<iostream>
+	"builder.hh"
+	"door.hh"
+
+1494907636 c:\users\owner\desktop\github-code\designpatterns\builder\door.hh
+	<string>
+
