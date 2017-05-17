@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1494989168 source:c:\users\owner\desktop\github-code\designpatterns\prototype\main.cpp
+	<iostream>
+	"prototype.hh"
+
+1494990035 c:\users\owner\desktop\github-code\designpatterns\prototype\prototype.hh
+
+1494989974 source:c:\users\owner\desktop\github-code\designpatterns\prototype\prototype.cpp
+	<iostream>
+	"prototype.hh"
+
