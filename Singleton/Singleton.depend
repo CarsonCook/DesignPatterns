@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1495064536 source:c:\users\owner\desktop\github-code\designpatterns\singleton\main.cpp
+	<iostream>
+	"singleton.hh"
+
+1495064757 source:c:\users\owner\desktop\github-code\designpatterns\singleton\singleton.cpp
+	<iostream>
+	"singleton.hh"
+
+1495064757 c:\users\owner\desktop\github-code\designpatterns\singleton\singleton.hh
+
