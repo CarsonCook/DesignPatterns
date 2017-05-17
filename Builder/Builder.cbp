@@ -32,6 +32,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="builder.hh" />
+		<Unit filename="builderAndDoor.cpp" />
+		<Unit filename="door.hh" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
