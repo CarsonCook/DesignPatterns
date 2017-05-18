@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1495078608 source:c:\users\owner\desktop\github-code\designpatterns\bridge\bridge.cpp
+
+1495080390 source:c:\users\owner\desktop\github-code\designpatterns\bridge\complexhierarchy.cpp
+	"complexhierarchy.hh"
+
+1385320478 source:c:\users\owner\desktop\github-code\designpatterns\bridge\main.cpp
+	<iostream>
+
+1495080409 c:\users\owner\desktop\github-code\designpatterns\bridge\complexhierarchy.hh
+	<string>
+
