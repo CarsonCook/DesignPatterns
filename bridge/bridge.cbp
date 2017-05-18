@@ -32,6 +32,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="README.md" />
+		<Unit filename="bridge.cpp" />
+		<Unit filename="bridge.hh" />
+		<Unit filename="complexhierarchy.cpp" />
+		<Unit filename="complexhierarchy.hh" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

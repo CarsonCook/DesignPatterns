@@ -1,3 +1,4 @@
+#include <iostream>
 #include "complexhierarchy.hh"
 
 WebPage::WebPage(std::string name)
@@ -45,6 +46,16 @@ std::string LightInfoWebPage::getInfo()
     return mInfo;
 }
 
+void LightInfoWebPage::printPage()
+{
+    std::cout << getName() << " " << getLightness() << " " << mInfo << std::endl;
+}
+
+void LightMediaWebPage::printPage()
+{
+    std::cout << getName() << " " << getLightness() << " " << mPic << std::endl;
+}
+
 LightMediaWebPage::LightMediaWebPage(std::string name, int lightness, std::string pic):LightWebPage(name,lightness)
 {
     mPic=pic;
@@ -90,6 +101,11 @@ std::string DarkInfoWebPage::getInfo()
     return mInfo;
 }
 
+void DarkInfoWebPage::printPage()
+{
+    std::cout << getName() << " " << getDarkness() << " " << mInfo << std::endl;
+}
+
 DarkMediaWebPage::DarkMediaWebPage(std::string name, int darkness, std::string pic):DarkWebPage(name,darkness)
 {
     mPic=pic;
@@ -103,4 +119,9 @@ void DarkMediaWebPage::setPic(std::string pic)
 std::string DarkMediaWebPage::getPic()
 {
     return mPic;
+}
+
+void DarkMediaWebPage::printPage()
+{
+    std::cout << getName() << " " << getDarkness() << " " << mPic << std::endl;
 }

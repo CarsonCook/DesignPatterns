@@ -29,6 +29,7 @@ public:
     DarkInfoWebPage(std::string name, int darkness, std::string info);
     void setInfo(std::string);
     std::string getInfo();
+    void printPage();
 private:
     std::string mInfo;
 };
@@ -39,6 +40,7 @@ public:
     DarkMediaWebPage(std::string name, int darkness, std::string pic);
     void setPic(std::string);
     std::string getPic();
+    void printPage();
 private:
     std::string mPic;
 };
@@ -59,6 +61,7 @@ public:
     LightInfoWebPage(std::string name, int lightness, std::string info);
     void setInfo(std::string);
     std::string getInfo();
+    void printPage();
 private:
     std::string mInfo;
 };
@@ -69,6 +72,7 @@ public:
     LightMediaWebPage(std::string name, int lightness, std::string pic);
     void setPic(std::string);
     std::string getPic();
+    void printPage();
 private:
     std::string mPic;
 };
