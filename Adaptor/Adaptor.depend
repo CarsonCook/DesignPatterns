@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1495078216 source:c:\users\owner\desktop\github-code\designpatterns\adaptor\main.cpp
+	<iostream>
+	"adaptor.hh"
+
+1495078048 source:c:\users\owner\desktop\github-code\designpatterns\adaptor\adaptor.cpp
+	<iostream>
+	"adaptor.hh"
+
+1495078253 c:\users\owner\desktop\github-code\designpatterns\adaptor\adaptor.hh
+
