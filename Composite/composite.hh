@@ -1,9 +1,19 @@
-#include <iostream>
+#ifndef composite_hh
+#define composite_hh
 
-using namespace std;
+#include <string>
 
-int main()
+class Employee
 {
-    cout << "Hello world!" << endl;
-    return 0;
-}
+public:
+    Employee(std::string name);
+    virtual int getSalary()=0;
+    std::string getName();
+    void setName(std::string);
+    virtual std::string getRole()=0;
+    virtual void printEmployee()=0;
+private:
+    std::string mName;
+};
+
+#endif // composite_hh

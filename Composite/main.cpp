@@ -1,4 +1,5 @@
 #include <iostream>
+#include "composite.hh"
 
 using namespace std;
 

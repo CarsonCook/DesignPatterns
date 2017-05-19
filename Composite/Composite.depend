@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1495234158 source:c:\users\owner\desktop\github-code\designpatterns\composite\main.cpp
+	<iostream>
+	"composite.hh"
+
+1495234588 c:\users\owner\desktop\github-code\designpatterns\composite\composite.hh
+	<string>
+

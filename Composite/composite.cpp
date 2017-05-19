@@ -1,9 +1,18 @@
+#include "composite.hh"
+#include <string>
 #include <iostream>
 
-using namespace std;
-
-int main()
+Employee::Employee(std::string name)
 {
-    cout << "Hello world!" << endl;
-    return 0;
+    mName=name;
+}
+
+void Employee::setName(std::string name)
+{
+    mName=name;
+}
+
+std::string Employee::getName()
+{
+    return mName;
 }
