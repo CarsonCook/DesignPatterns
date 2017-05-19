@@ -42,16 +42,6 @@ WebPageBridge::WebPageBridge(std::string name, Theme* theme)
     mTheme=theme;
 }
 
-WebPageBridge::~WebPageBridge()
-{
-    std::cout << mTheme << std::endl;
-    if (mTheme!=nullptr)
-    {
-        std::cout << "SDF" << std::endl;
-        //delete mTheme;
-    }
-}
-
 std::string WebPageBridge::getName()
 {
     return mName;

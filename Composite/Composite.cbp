@@ -32,6 +32,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="README.md" />
+		<Unit filename="composite.cpp" />
+		<Unit filename="composite.hh" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

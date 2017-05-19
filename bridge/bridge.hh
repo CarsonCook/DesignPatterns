@@ -34,7 +34,7 @@ class WebPageBridge
 {
 public:
     WebPageBridge(std::string name, Theme* theme);
-    virtual ~WebPageBridge();
+    virtual ~WebPageBridge(){};
     std::string getName();
     Theme* getTheme();
     virtual std::string getType()=0;
