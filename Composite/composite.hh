@@ -39,7 +39,6 @@ public:
 class Business
 {
 public:
-    ~Business();
     void addEmployee(Employee* employee);
     int getNetSalaries();
     void printEmployees();

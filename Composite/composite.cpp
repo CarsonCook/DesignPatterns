@@ -53,14 +53,6 @@ void Developer::printEmployee()
     std::cout << getName() << " " << getRole() << " " << getSalary() << std::endl;
 }
 
-Business::~Business()
-{
-    for (int i=0; i<mEmployees.size(); i++)
-    {
-        delete mEmployees[i];
-    }
-}
-
 void Business::addEmployee(Employee* employee)
 {
     mEmployees.push_back(employee);

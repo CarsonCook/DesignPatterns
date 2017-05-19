@@ -12,6 +12,6 @@ int main()
     bus->addEmployee(dev);
     bus->printEmployees();
     cout << "Net salaries: " << bus->getNetSalaries() << endl;
-    delete bus;//deconstructor also deletes des and dev
+    delete bus; delete dev; delete des;
     return 0;
 }
