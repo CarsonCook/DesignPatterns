@@ -1,5 +1,6 @@
 #include <iostream>
 #include "complexhierarchy.hh"
+#include "bridge.hh"
 
 using namespace std;
 
@@ -17,6 +18,12 @@ int main()
     //now we have two hierarchies, each with 3 classes. There are still 4 endpoints here, but
     //with larger systems there are less (e.g., with a 1->3->3 hierarchy, there would normally
     //be 19 classes with 9 endpoints, but with bridge only 8 and 6.
-
+    LightTheme lt(10);
+    DarkTheme dt(5);
+    InfoPage* ip=new InfoPage("info",&lt);
+    MediaPage* mp=new MediaPage("media",&dt);
+    ip->printPage();
+    mp->printPage();
+    delete ip; delete mp;
     return 0;
 }
