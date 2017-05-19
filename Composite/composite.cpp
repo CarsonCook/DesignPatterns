@@ -69,9 +69,17 @@ void Business::addEmployee(Employee* employee)
 int Business::getNetSalaries()
 {
     int salarySum=0;
-    for (int i=0; i<mEmployees.size(); i++)
+    for (Employee* employee:mEmployees)
     {
-        salarySum+=mEmployees[i]->getSalary();
+        salarySum+=employee->getSalary();
     }
     return salarySum;
+}
+
+void Business::printEmployees()
+{
+    for (Employee* employee:mEmployees)
+    {
+        employee->printEmployee();
+    }
 }

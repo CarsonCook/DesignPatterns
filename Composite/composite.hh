@@ -42,6 +42,7 @@ public:
     ~Business();
     void addEmployee(Employee* employee);
     int getNetSalaries();
+    void printEmployees();
 private:
     std::vector<Employee*> mEmployees;
 };

@@ -1,9 +1,15 @@
 # depslib dependency file v1.0
-1495234158 source:c:\users\owner\desktop\github-code\designpatterns\composite\main.cpp
+1495235668 source:c:\users\owner\desktop\github-code\designpatterns\composite\main.cpp
 	<iostream>
 	"composite.hh"
 
-1495235372 c:\users\owner\desktop\github-code\designpatterns\composite\composite.hh
+1495235551 c:\users\owner\desktop\github-code\designpatterns\composite\composite.hh
 	<string>
+	<vector>
+
+1495235719 source:c:\users\owner\desktop\github-code\designpatterns\composite\composite.cpp
+	"composite.hh"
+	<string>
+	<iostream>
 	<vector>
 
