@@ -5,6 +5,11 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    Coffee c;
+    MilkCoffee mc(c);
+    WhipCreamCoffee wc(c);
+    mc.printCoffee();
+    wc.printCoffee();
+    c.printCoffee(); //c wasn't changed by the decorator classes!
     return 0;
 }

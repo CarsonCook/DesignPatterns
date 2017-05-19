@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1495236249 source:c:\users\owner\desktop\github-code\designpatterns\decorator\decorator.cpp
+	"decorator.hh"
+
+1495236796 c:\users\owner\desktop\github-code\designpatterns\decorator\decorator.hh
+	<string>
+
+1495236249 source:c:\users\owner\desktop\github-code\designpatterns\decorator\main.cpp
+	<iostream>
+	"decorator.hh"
+
