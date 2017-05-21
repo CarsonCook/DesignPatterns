@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1495384488 source:c:\users\owner\desktop\github-code\designpatterns\facade\facade.cpp
+	"facade.hh"
+	<iostream>
+
+1495384392 c:\users\owner\desktop\github-code\designpatterns\facade\facade.hh
+
+1385320478 source:c:\users\owner\desktop\github-code\designpatterns\facade\main.cpp
+	<iostream>
+
