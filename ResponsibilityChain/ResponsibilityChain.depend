@@ -1,6 +1,11 @@
 # depslib dependency file v1.0
-1495388447 source:c:\users\owner\desktop\github-code\designpatterns\responsibilitychain\responsibilitychain.cpp
+1495390148 source:c:\users\owner\desktop\github-code\designpatterns\responsibilitychain\responsibilitychain.cpp
 	"responsibilitychain.hh"
+	<iostream>
 
-1495388447 c:\users\owner\desktop\github-code\designpatterns\responsibilitychain\responsibilitychain.hh
+1495390177 c:\users\owner\desktop\github-code\designpatterns\responsibilitychain\responsibilitychain.hh
+
+1495390165 source:c:\users\owner\desktop\github-code\designpatterns\responsibilitychain\main.cpp
+	<iostream>
+	"responsibilitychain.hh"
 
