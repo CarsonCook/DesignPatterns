@@ -17,11 +17,6 @@ Security::Security(Door* door)
     mDoor=door;
 }
 
-Security::~Security()
-{
-    delete mDoor;
-}
-
 void Security::open(std::string password)
 {
     if (authenticate(password))

@@ -21,11 +21,10 @@ class Security
 {
 public:
     Security(Door* door);
-    ~Security();
     void open(std::string password);
     void close();
-    bool authenticate(std::string password);
 private:
+    bool authenticate(std::string password);
     Door* mDoor;
 };
 

@@ -1,12 +1,13 @@
 # depslib dependency file v1.0
-1385320478 source:c:\users\owner\desktop\github-code\designpatterns\proxy\main.cpp
+1495387948 source:c:\users\owner\desktop\github-code\designpatterns\proxy\main.cpp
+	"proxy.hh"
 	<iostream>
 
-1495387846 source:c:\users\owner\desktop\github-code\designpatterns\proxy\proxy.cpp
+1495390284 source:c:\users\owner\desktop\github-code\designpatterns\proxy\proxy.cpp
 	"proxy.hh"
 	<iostream>
 	<string>
 
-1495387675 c:\users\owner\desktop\github-code\designpatterns\proxy\proxy.hh
+1495390331 c:\users\owner\desktop\github-code\designpatterns\proxy\proxy.hh
 	<string>
 
