@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1495385069 source:c:\users\owner\desktop\github-code\designpatterns\flyweight\flyweight.cpp
+	"flyweight.hh"
+
+1495386602 c:\users\owner\desktop\github-code\designpatterns\flyweight\flyweight.hh
+	<vector>
+	<string>
+
