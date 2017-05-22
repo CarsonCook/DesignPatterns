@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1385320478 source:c:\users\owner\desktop\github-code\designpatterns\mediator\main.cpp
+	<iostream>
+
+1495417366 source:c:\users\owner\desktop\github-code\designpatterns\mediator\mediator.cpp
+	"mediator.hh"
+	<string>
+	<iostream>
+
+1495417344 c:\users\owner\desktop\github-code\designpatterns\mediator\mediator.hh
+	<string>
+
