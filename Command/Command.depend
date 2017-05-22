@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1495415770 source:c:\users\owner\desktop\github-code\designpatterns\command\command.cpp
+	"command.hh"
+	<iostream>
+
+1495415770 c:\users\owner\desktop\github-code\designpatterns\command\command.hh
+
+1495415770 source:c:\users\owner\desktop\github-code\designpatterns\command\main.cpp
+	<iostream>
+	"command.hh"
+
