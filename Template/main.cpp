@@ -5,6 +5,9 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    AndroidBuilder ab;
+    ab.build();
+    IOSBuilder ib;
+    ib.build();
     return 0;
 }
