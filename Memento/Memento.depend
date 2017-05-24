@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1495417781 source:c:\users\owner\desktop\github-code\designpatterns\memento\main.cpp
+	<iostream>
+	"memento.hh"
+
+1495418296 c:\users\owner\desktop\github-code\designpatterns\memento\memento.hh
+	<string>
+
+1495418296 source:c:\users\owner\desktop\github-code\designpatterns\memento\memento.cpp
+	"memento.hh"
+

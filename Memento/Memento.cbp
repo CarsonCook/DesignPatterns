@@ -32,7 +32,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="README.md" />
 		<Unit filename="main.cpp" />
+		<Unit filename="memento.cpp" />
+		<Unit filename="memento.hh" />
 		<Extensions>
 			<code_completion />
 			<envvars />
