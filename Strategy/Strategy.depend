@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1495593028 source:c:\users\owner\desktop\github-code\designpatterns\strategy\main.cpp
+	<iostream>
+	"strategy.hh"
+
+1495594015 c:\users\owner\desktop\github-code\designpatterns\strategy\strategy.hh
+
+1495594027 source:c:\users\owner\desktop\github-code\designpatterns\strategy\strategy.cpp
+	"strategy.hh"
+
