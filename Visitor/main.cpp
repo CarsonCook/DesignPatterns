@@ -5,6 +5,10 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    Monkey* m=new Monkey();
+    Lion* l=new Lion();
+    Speak* speak=new Speak();
+    m->accept(speak);
+    l->accept(speak);
     return 0;
 }

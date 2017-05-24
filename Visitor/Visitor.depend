@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1495591703 source:c:\users\owner\desktop\github-code\designpatterns\visitor\main.cpp
+	<iostream>
+	"visitor.hh"
+
+1495592518 c:\users\owner\desktop\github-code\designpatterns\visitor\visitor.hh
+
+1495592573 source:c:\users\owner\desktop\github-code\designpatterns\visitor\visitor.cpp
+	"visitor.hh"
+	<iostream>
+
