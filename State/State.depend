@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1495595512 source:c:\users\owner\desktop\github-code\designpatterns\state\main.cpp
+	<iostream>
+	"state.hh"
+
+1495595519 c:\users\owner\desktop\github-code\designpatterns\state\state.hh
+	<string>
+
+1495595419 source:c:\users\owner\desktop\github-code\designpatterns\state\state.cpp
+	"state.hh"
+	<iostream>
+	<string>
+
