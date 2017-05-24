@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1495590118 source:c:\users\owner\desktop\github-code\designpatterns\observer\main.cpp
+	<iostream>
+	"observer.hh"
+
+1495591036 c:\users\owner\desktop\github-code\designpatterns\observer\observer.hh
+	<string>
+	<vector>
+
+1495591037 source:c:\users\owner\desktop\github-code\designpatterns\observer\observer.cpp
+	"observer.hh"
+	<string>
+	<vector>
+	<iostream>
+
