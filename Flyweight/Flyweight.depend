@@ -1,8 +1,15 @@
 # depslib dependency file v1.0
-1495385069 source:c:\users\owner\desktop\github-code\designpatterns\flyweight\flyweight.cpp
+1495676382 source:c:\users\owner\desktop\github-code\designpatterns\flyweight\flyweight.cpp
 	"flyweight.hh"
-
-1495386602 c:\users\owner\desktop\github-code\designpatterns\flyweight\flyweight.hh
-	<vector>
 	<string>
+	<iostream>
+	<map>
+
+1495676370 c:\users\owner\desktop\github-code\designpatterns\flyweight\flyweight.hh
+	<map>
+	<string>
+
+1495676520 source:c:\users\owner\desktop\github-code\designpatterns\flyweight\main.cpp
+	<iostream>
+	"flyweight.hh"
 
