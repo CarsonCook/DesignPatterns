@@ -8,3 +8,11 @@ It enforces behaviour for this group of objects that is the same, even if the ob
 1. When a part of a relationship tree needs to represented similar to the whole tree
 2. When clients can ignore the differences between the composition of objects and individual objects
 3. When the structure can have any level of complexity and is dynamic
+
+##Benefits
+
+1. New components are easier to add
+
+##Drawbacks
+
+1. System can be too general and restrict some classes you would not want to restrict
